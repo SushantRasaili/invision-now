@@ -1,0 +1,216 @@
+/* tittle */
+
+#navtop {
+    background-color: #204051;
+    
+}
+
+.carousel-item {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Philosopher', sans-serif;
+    color: azure;
+    background-color: #204051;
+    
+}
+.joint{
+    font-family: 'Philosopher', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 40px;
+}
+.brand {
+    font-family: 'Unica One', cursive;
+}
+.part {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+    color: azure;
+    font-family: 'Philosopher', sans-serif;
+}
+.btn {
+    margin: 10px 20px;
+}
+.navbar-item {
+    margin: 10px 10px;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+}
+h2,h3 {
+    color: azure;
+}
+/* li {
+    border-right: 1px solid white;
+} */
+@media (max-width:750px) {
+    /* li {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    } */
+   li { 
+        border-bottom: 1px solid white;
+    }
+    /* li a:hover {
+        background-color: #3797a4;
+    } */
+    /* li a {
+        text-align: center;
+    } */
+    li a {
+        padding-left: 62px;
+    }
+}
+
+/* expertise */
+#expert {
+    background-color: #f67575;
+    text-align: center;
+    
+}
+.our {
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+.logo {
+    margin-bottom: 25px;
+}
+
+.logoh {
+          margin-bottom: 60px;
+}
+.rows {
+    font-family: 'Philosopher', sans-serif;
+}
+
+/* why us */
+#why {
+    background-color: white;
+
+}
+.whys {
+    padding-top: 40px;
+    
+    color: gray;
+} 
+li {
+    margin-bottom: 10px;
+}
+.rowss {
+    font-family: 'Philosopher', sans-serif;
+    
+}
+.imgvec {
+    padding-right: 40px;
+    opacity: 1.0;
+}
+.imgvec:hover {
+    opacity:0.75;
+}
+
+/* queries */
+
+#query {
+       background-color: #21bf73;
+       padding-left: 50px;
+       text-align: center;
+       padding-bottom: 20px;
+       padding-top: 20px;
+       font-family: 'Philosopher', sans-serif;
+}
+.form {
+    margin-top: 25px;
+    padding-right: 50px;
+}
+
+
+/* form */
+input[type=text] {
+    border-radius: 9px;
+    height: 40px;
+    width: 20%;
+    border: none;
+}
+
+input[type=email] {
+    border-radius: 9px;
+    height: 40px;
+    width: 20%;
+    border: none;
+}
+
+
+input[type=number] {
+    border-radius: 9px;
+    height: 40px;
+     width: 20%;
+     border: none;
+
+}
+textarea {
+    border-radius: 9px;
+    width: 20%;
+    resize: none;
+    border: none;
+}
+.col-lg-2 {
+    margin: 0 10px;
+}
+
+@media(max-width:576px) {
+    input[type=text] {
+        border-radius: 9px;
+        height: 40px;
+        width: 90%;
+        border: none;
+        margin-bottom: 15px;
+    }
+
+    input[type=email] {
+        border-radius: 9px;
+        height: 40px;
+        width: 90%;
+        border: none;
+        margin-bottom: 15px;
+    }
+
+    input[type=number] {
+        border-radius: 9px;
+        height: 40px;
+         width: 90%;
+         border: none;
+         margin-bottom: 15px;
+    
+    }
+    textarea {
+        border-radius: 9px;
+        width: 90%;
+        resize: none;
+        border: none;
+    }
+}
+/* social */
+#social {
+    background-color: #35495e;
+    text-align: center;
+}
+
+
+.imgsoc {
+    margin: 5px 21px;
+    width: 5%;
+}
+.imgsoc:hover {
+    color: lightblue;
+}
+.jonme {
+    padding-top: 15px;
+}
+
+.copyr {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
